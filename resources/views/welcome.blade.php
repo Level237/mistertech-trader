@@ -3,6 +3,7 @@
 
     <x-hero />
     <x-about-video />
+    <x-beginner-training />
 
     {{-- Other sections will go here --}}
     {{-- <x-features /> --}}

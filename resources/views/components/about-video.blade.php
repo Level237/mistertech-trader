@@ -15,18 +15,18 @@
                     class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 backdrop-blur-md">
                     <span class="text-[10px] font-bold tracking-[0.2em] uppercase text-primary">Découvrez MrTech</span>
                 </div>
-                <h2 class="text-4xl lg:text-6xl font-black tracking-tight text-white">
+                <h2 class="text-4xl lg:text-6xl max-sm:text-3xl font-black tracking-tight text-white">
                     Plus qu'une académie, <br>
                     <span class="text-primary">un écosystème de réussite.</span>
                 </h2>
-                <p class="text-white/50 text-lg max-w-2xl mx-auto font-medium">
+                <p class="text-white/50 text-lg  max-w-2xl mx-auto font-medium">
                     Plongez dans l'univers de MrTech et découvrez comment nous transformons des passionnés en traders
                     d'élite grâce à une approche concrète et innovante.
                 </p>
             </div>
 
             {{-- Video Player Container --}}
-            <div class="relative group animate-in fade-in zoom-in duration-1000 delay-200">
+            <div class="relative  group animate-in fade-in zoom-in duration-1000 delay-200">
                 {{-- Decorative Glow --}}
                 <div
                     class="absolute -inset-1 bg-gradient-to-r from-primary/50 to-emerald-500/50 blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-700">
@@ -34,9 +34,9 @@
 
                 {{-- Frame --}}
                 <div
-                    class="relative aspect-video rounded-[2.5rem] border border-white/10 bg-white/5 p-2 backdrop-blur-sm overflow-hidden">
+                    class="relative aspect-video max-sm:h-[350px] max-sm:w-[100%] rounded-[2.5rem] border border-white/10 bg-white/5 p-2 backdrop-blur-sm overflow-hidden">
                     <div class="w-full h-full rounded-[2rem] overflow-hidden bg-black shadow-2xl">
-                        <iframe width="100%" height="100%"
+                        <iframe width="100%" height="100%" class=""
                             src="https://www.youtube.com/embed/_rKmLB7BQng?si=6drqX_qeeJcRfzat?autoplay=1"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
