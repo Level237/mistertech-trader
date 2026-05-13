@@ -1,0 +1,72 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Brand Colors */
+    --color-primary: #00C580;
+
+    /* Custom Animations */
+    --animate-bounce-slow: bounce-slow 3s infinite;
+    --animate-in: animate-in 1s ease-out forwards;
+    --animate-fade-in: fade-in 1s ease-out forwards;
+    --animate-slide-in-from-left: slide-in-from-left 1s ease-out forwards;
+    --animate-slide-in-from-right: slide-in-from-right 1s ease-out forwards;
+
+    @keyframes bounce-slow {
+        0%, 100% { transform: translateY(-5%); animation-timing-function: cubic-bezier(0.8, 0, 1, 1); }
+        50% { transform: translateY(0); animation-timing-function: cubic-bezier(0, 0, 0.2, 1); }
+    }
+
+    @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes slide-in-from-left {
+        from { transform: translateX(-20px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes slide-in-from-right {
+        from { transform: translateX(20px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+}
+
+@layer utilities {
+    .animate-in {
+        animation: var(--animate-in);
+    }
+    .fade-in {
+        animation: var(--animate-fade-in);
+    }
+    .slide-in-from-left {
+        animation: var(--animate-slide-in-from-left);
+    }
+    .slide-in-from-right {
+        animation: var(--animate-slide-in-from-right);
+    }
+    .animate-bounce-slow {
+        animation: var(--animate-bounce-slow);
+    }
+    .delay-200 {
+        animation-delay: 200ms;
+    }
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply antialiased;
+    }
+}
