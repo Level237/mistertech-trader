@@ -1,4 +1,4 @@
-<section class="relative overflow-hidden pt-32 -mt-28 pb-20 lg:pt-48 lg:pb-32 bg-black">
+<section class="relative overflow-hidden pt-32 -mt-28 max-sm:mt-0 pb-20 lg:pt-48 lg:pb-32 bg-black">
     {{-- Background decorative elements --}}
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl overflow-hidden pointer-events-none">
         <div class="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-primary/10 blur-[120px] rounded-full"></div>

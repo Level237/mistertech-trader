@@ -5,6 +5,7 @@
     <x-about-video />
     <x-beginner-training />
     <x-signals-carousel />
+    <x-promo-modal />
 
     {{-- Other sections will go here --}}
     {{-- <x-features /> --}}
