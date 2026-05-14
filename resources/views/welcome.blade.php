@@ -4,6 +4,7 @@
     <x-hero />
     <x-about-video />
     <x-beginner-training />
+    <x-signals-carousel />
 
     {{-- Other sections will go here --}}
     {{-- <x-features /> --}}
