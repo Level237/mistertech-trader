@@ -1,30 +1,60 @@
-<section class="relative min-h-[40dvh] flex items-center overflow-hidden bg-zinc-950 pt-20">
-    {{-- Background Image with Overlay --}}
+<section class="relative h-[60vh] w-full overflow-hidden bg-black">
+    <!-- Background Image -->
     <div class="absolute inset-0 z-0">
-        <img src="{{ asset('images/slider13.jpg') }}" alt="Formation Hero" class="w-full h-full object-cover opacity-30">
-        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image: url('{{ asset('images/modal-formation.jpg') }}');"></div>
+        <!-- Primary (Orangey) Overlay -->
+        <div class="absolute inset-0 bg-primary/80 mix-blend-multiply"></div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-primary/20 to-black/80"></div>
     </div>
 
-    {{-- Content --}}
-    <div class="container mx-auto px-6 relative z-10">
-        <div class="max-w-3xl">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6 animate-fade-in">
-                <span class="relative flex h-2 w-2">
-                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                    <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-                </span>
-                Academy de Trading
-            </div>
-            <h1 class="text-5xl md:text-7xl font-black tracking-tighter leading-none mb-6 animate-slide-in-from-left uppercase italic">
-                Devenez un Expert <br>
-                <span class="text-primary not-italic">des Marchés</span>
+    <!-- Content -->
+    <div
+        class="relative z-10 container mx-auto px-6 md:px-10 h-full flex flex-col items-center justify-center text-center max-w-7xl">
+        <div class="space-y-6">
+            <h1 class="text-4xl md:text-7xl font-extrabold text-white animate-fade-in-up">
+                Formation Trading <span class="text-primary">Rentable</span>
             </h1>
-            <p class="text-lg text-gray-400 leading-relaxed max-w-[60ch] animate-fade-in delay-200">
-                Nos formations sont conçues pour vous transmettre les compétences techniques et psychologiques nécessaires pour dominer le trading institutionnel (SMC/ICT).
+            <div class="w-24 h-1.5 bg-white mx-auto rounded-full animate-width-grow"></div>
+            <p class="text-white/90 text-lg md:text-xl max-w-2xl mx-auto animate-fade-in-up delay-200">
+                Découvrez la formation ultime pour maîtriser le trading et générer des revenus constants. Rejoignez des milliers
             </p>
         </div>
     </div>
-
-    {{-- Decorative Mesh --}}
-    <div class="absolute top-0 right-0 w-1/2 h-full bg-primary/5 blur-[120px] rounded-full pointer-events-none -translate-y-1/2 translate-x-1/4"></div>
 </section>
+
+<style>
+    @keyframes fade-in-up {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes width-grow {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 6rem;
+        }
+    }
+
+    .animate-fade-in-up {
+        animation: fade-in-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .animate-width-grow {
+        animation: width-grow 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .delay-200 {
+        animation-delay: 0.2s;
+    }
+</style>

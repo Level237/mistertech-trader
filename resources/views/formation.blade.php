@@ -15,7 +15,8 @@
             </div>
 
             <x-formation.course-grid />
+            
         </div>
     </section>
-
+<x-signals-carousel />
 </x-layouts.app>
