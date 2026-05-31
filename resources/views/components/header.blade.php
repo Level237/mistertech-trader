@@ -21,8 +21,8 @@
         <nav class="hidden lg:flex items-center gap-1">
             @php
                 $navItems = [
-                    ['label' => 'Formations', 'url' => '#'],
-                    ['label' => 'Signaux', 'url' => '#'],
+                    ['label' => 'Formations', 'url' => '/formations'],
+                    ['label' => 'Signaux', 'url' => '/signaux'],
                     ['label' => 'À propos', 'url' => '#'],
                     ['label' => 'Témoignages', 'url' => '#'],
                 ];
@@ -102,7 +102,7 @@
                     @php
                         $mobileNavItems = [
                             ['label' => 'Formations', 'url' => route('formation'), 'desc' => 'Devenez un trader pro'],
-                            ['label' => 'Signaux', 'url' => '#', 'desc' => 'Précision haute fidélité'],
+                            ['label' => 'Signaux', 'url' => route('signaux'), 'desc' => 'Précision haute fidélité'],
                             ['label' => 'À propos', 'url' => '#', 'desc' => 'Notre vision'],
                             ['label' => 'Témoignages', 'url' => '#', 'desc' => 'Ils ont réussi'],
                         ];
@@ -157,4 +157,5 @@
             </nav>
         </div>
     </template>
+</header>late>
 </header>

@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/formation', function () {
+Route::get('/formations', function () {
     return view('formation');
 })->name('formation');
+
+Route::get('/signaux', function () {
+    return view('signals');
+})->name('signaux');
