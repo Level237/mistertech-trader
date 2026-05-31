@@ -29,7 +29,7 @@
             @endphp
             @foreach($navItems as $item)
                 <a href="{{ $item['url'] }}"
-                    class="px-5 py-2 text-sm font-bold text-white/60 hover:text-white transition-all duration-300 relative group">
+                    class="px-5 py-2 text-md font-bold text-white/60 hover:text-white transition-all duration-300 relative group">
                     {{ $item['label'] }}
                     <span
                         class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-1 bg-primary rounded-full transition-all duration-300 group-hover:w-4 opacity-0 group-hover:opacity-100"></span>
@@ -101,14 +101,14 @@
                 <div class="flex flex-col gap-5 mt-44 ">
                     @php
                         $mobileNavItems = [
-                            ['label' => 'Formations', 'desc' => 'Devenez un trader pro'],
-                            ['label' => 'Signaux', 'desc' => 'Précision haute fidélité'],
-                            ['label' => 'À propos', 'desc' => 'Notre vision'],
-                            ['label' => 'Témoignages', 'desc' => 'Ils ont réussi'],
+                            ['label' => 'Formations', 'url' => route('formation'), 'desc' => 'Devenez un trader pro'],
+                            ['label' => 'Signaux', 'url' => '#', 'desc' => 'Précision haute fidélité'],
+                            ['label' => 'À propos', 'url' => '#', 'desc' => 'Notre vision'],
+                            ['label' => 'Témoignages', 'url' => '#', 'desc' => 'Ils ont réussi'],
                         ];
                     @endphp
                     @foreach($mobileNavItems as $item)
-                        <a href="#" @click="mobileMenuOpen = false"
+                        <a href="{{ $item['url'] }}" @click="mobileMenuOpen = false"
                             class="group flex flex-col space-y-1 animate-in fade-in slide-in-from-left duration-500"
                             style="animation-delay: {{ $loop->index * 100 }}ms">
                             <span

@@ -9,7 +9,7 @@
         <div class="text-center mb-16 space-y-6 animate-in fade-in slide-in-from-bottom duration-1000">
            
             <h2 class="text-4xl lg:text-6xl font-black tracking-tight text-white leading-tight">
-                Nos Signaux de <span class="text-primary italic">Trading</span>
+                Nos Signaux de <span class="text-primary">Trading</span>
             </h2>
             <p class="text-white/50 text-lg max-w-2xl mx-auto font-medium leading-relaxed">
                 Rejoignez des centaines de traders qui utilisent nos analyses haute fidélité pour capturer les meilleures opportunités du marché chaque jour.

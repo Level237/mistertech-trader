@@ -20,7 +20,7 @@
                         </span>
                         Maîtrisez votre avenir financier
                     </span>
-                    <h1 class="text-5xl lg:text-7xl font-bold tracking-tight text-white leading-[1.1] mb-6">
+                    <h1 class="text-5xl nunito-one lg:text-7xl font-bold tracking-tight text-white leading-[1.1] mb-6">
                         Tradez comme un pro avec <span
                             class="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent ">MrTech</span>
                     </h1>
