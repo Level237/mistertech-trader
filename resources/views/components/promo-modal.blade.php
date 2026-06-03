@@ -73,7 +73,7 @@
                     </svg>
                 </a>
 
-                <a href="https://t.me/MrtechTrading" target="_blank"
+                <a href="https://t.me/mrtech237forex_academy" target="_blank"
                     class="flex items-center max-sm:text-sm justify-center px-8 py-5 bg-white/5 border border-white/10 text-white font-bold rounded-2xl backdrop-blur-xl hover:bg-white/10 hover:border-primary/50 transition-all duration-300 gap-3 active:scale-95">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                         class="text-[#24A1DE]">

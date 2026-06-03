@@ -56,13 +56,13 @@
     <div class="container mx-auto px-4 relative z-10 mt-16">
         {{-- CTAs --}}
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6 animate-in fade-in slide-in-from-top duration-1000 delay-500">
-            <a href="#" class="group relative w-full sm:w-auto px-10 py-5 bg-primary text-black font-black rounded-2xl transition-all duration-300 hover:bg-white active:scale-95 text-center overflow-hidden">
+            <a href="/signaux" class="group relative w-full sm:w-auto px-10 py-5 bg-primary text-black font-black rounded-2xl transition-all duration-300 hover:bg-white active:scale-95 text-center overflow-hidden">
                 <span class="relative z-10">VOIR LES SIGNAUX</span>
                 {{-- Subtle internal glow --}}
                 <div class="absolute inset-0 bg-white opacity-0 group-hover:opacity-10 transition-opacity"></div>
             </a>
             
-            <a href="https://t.me/MrtechTrading" target="_blank" class="w-full sm:w-auto px-10 py-5 bg-white/5 border border-white/10 text-white font-bold rounded-2xl backdrop-blur-xl hover:bg-white/10 hover:border-primary/50 transition-all duration-300 flex items-center justify-center gap-3 active:scale-95">
+            <a href="https://t.me/mrtech237forex_academy" target="_blank" class="w-full sm:w-auto px-10 py-5 bg-white/5 border border-white/10 text-white font-bold rounded-2xl backdrop-blur-xl hover:bg-white/10 hover:border-primary/50 transition-all duration-300 flex items-center justify-center gap-3 active:scale-95">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="text-[#24A1DE]">
                     <path d="M21.5 3L2 11L9.17 14.5L21.5 3Z" fill="currentColor"/>
                     <path d="M9.17 14.5L12.5 21L21.5 3L9.17 14.5Z" fill="currentColor"/>

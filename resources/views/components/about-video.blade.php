@@ -48,7 +48,7 @@
 
             {{-- CTA --}}
             <div class="mt-20 text-center animate-in fade-in slide-in-from-top duration-1000 delay-500">
-                <a href="#"
+                <a href="/formations"
                     class="group relative inline-flex items-center gap-3 px-10 py-5 bg-white text-black font-black rounded-2xl hover:bg-primary hover:text-white transition-all duration-300 active:scale-95 overflow-hidden">
                     <span class="relative z-10">EN SAVOIR PLUS</span>
                     <svg xmlns="http://www.w3.org/2000/svg"

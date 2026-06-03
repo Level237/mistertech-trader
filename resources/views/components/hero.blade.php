@@ -31,11 +31,11 @@
                 </div>
 
                 <div class="flex flex-col sm:flex-row items-center gap-4">
-                    <a href="#"
+                    <a href="/formations"
                         class="group relative w-full sm:w-auto px-8 py-4 bg-primary text-black font-bold rounded-2xl hover:bg-white hover:text-black transition-all duration-300 overflow-hidden text-center">
                         <span class="relative z-10">Mes Formations</span>
                     </a>
-                    <a href="#"
+                    <a href="/signaux"
                         class="w-full sm:w-auto px-8 py-4 text-white font-semibold border border-white/20 rounded-2xl hover:bg-white/10 transition-all text-center">
                         Voir mes signaux
                     </a>
@@ -68,7 +68,7 @@
                 </div>
 
                 {{-- Main Hero Image (Person) --}}
-                <div class="relative z-20 transition-transform duration-700">
+                <div class="relative z-20 max-sm:hidden transition-transform duration-700">
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"></div>
                     <img src="{{ asset('images/hero.png') }}" alt="MrTech Trading Elite"
                         class="w-full h-[90vh] object-contain rounded-[2rem]">
