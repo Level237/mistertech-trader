@@ -53,7 +53,7 @@
                 </div>
                 <h2 class="text-3xl lg:text-5xl font-black tracking-tighter text-white leading-[1.1]">
                     Lancez-vous dans le <br>
-                    <span class="text-primary">Trading Rentable</span>
+                    <span class="text-primary">Trading</span>
                 </h2>
                 <p class="text-white/50 text-lg font-medium leading-relaxed">
                     Ne laissez pas passer cette opportunité. Accédez à une formation d'élite et rejoignez notre
